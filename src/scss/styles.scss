@@ -1,0 +1,15 @@
+$secondary: #742cc1;
+$btn-border-radius: 5px 45px;
+$btn-border-radius-lg: 5px 45px;
+$btn-border-radius-sm: 5px 45px;
+$h1-font-size: 60px;
+$h2-font-size: 40px;
+
+@import "bootstrap/scss/bootstrap";
+
+@include media-breakpoint-down(lg) {
+  .marketing {
+    top: 15%!important;
+  }
+}
+
